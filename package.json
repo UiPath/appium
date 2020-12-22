@@ -61,7 +61,7 @@
     "axios": "^0.19.2",
     "bluebird": "3.x",
     "continuation-local-storage": "3.x",
-    "dateformat": "^3.0.3",
+    "dateformat": "^4.4.1",
     "find-root": "^1.1.0",
     "lodash": "^4.17.11",
     "longjohn": "^0.2.12",
