@@ -1,0 +1,76 @@
+version: 2
+updates:
+- package-ecosystem: npm
+  directory: "/"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: sinon
+    versions:
+    - 10.0.0
+  - dependency-name: mocha
+    versions:
+    - 8.2.1
+    - 8.3.0
+    - 8.3.1
+  - dependency-name: appium-base-driver
+    versions:
+    - 7.4.1
+    - 7.4.2
+    - 7.5.0
+    - 7.5.1
+  - dependency-name: dateformat
+    versions:
+    - 4.5.0
+  - dependency-name: appium-fake-driver
+    versions:
+    - 2.0.1
+- package-ecosystem: npm
+  directory: "/sample-code/javascript-wd"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: mocha
+    versions:
+    - 8.2.1
+    - 8.3.0
+    - 8.3.1
+- package-ecosystem: npm
+  directory: "/sample-code/javascript-webdriverio"
+  schedule:
+    interval: daily
+  open-pull-requests-limit: 10
+  ignore:
+  - dependency-name: webdriverio
+    versions:
+    - 7.0.0
+    - 7.0.1
+    - 7.0.2
+    - 7.0.3
+    - 7.0.4
+    - 7.0.5
+    - 7.0.7
+    - 7.0.8
+    - 7.0.9
+    - 7.1.0
+    - 7.1.1
+    - 7.2.0
+    - 7.2.1
+    - 7.2.2
+    - 7.2.3
+    - 7.3.0
+    - 7.3.1
+    - 7.4.0
+    - 7.4.1
+    - 7.4.2
+    - 7.4.5
+    - 7.4.6
+    - 7.5.0
+    - 7.5.1
+  - dependency-name: mocha
+    versions:
+    - 8.2.1
+    - 8.3.0
+    - 8.3.1
